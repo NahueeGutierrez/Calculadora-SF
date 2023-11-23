@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+    <link rel="icon" href="icono.ico"  type="image/x-icon">
+</head>
+<body>
+    <div class="ryu">
+        <img src="ryu.gif" alt="">
+    </div>
+    <div class="ken">
+        <img src="ken.gif" alt="">
+    </div>
+    <div class="calculadora">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button class="fondoBotonBorrar" onclick="borrar()">C</button>
+            <button class="fondoBoton" onclick="primerMuestra('7')">7</button>
+            <button class="fondoBoton" onclick="primerMuestra('8')">8</button>
+            <button class="fondoBoton" onclick="primerMuestra('9')">9</button>
+            <button class="fondoBoton" onclick="primerMuestra('+')">+</button>
+            <button class="fondoBoton" onclick="primerMuestra('4')">4</button>
+            <button class="fondoBoton" onclick="primerMuestra('5')">5</button>
+            <button class="fondoBoton" onclick="primerMuestra('6')">6</button>
+            <button class="fondoBoton" onclick="primerMuestra('-')">-</button>
+            <button class="fondoBoton" onclick="primerMuestra('1')">1</button>
+            <button class="fondoBoton" onclick="primerMuestra('2')">2</button>
+            <button class="fondoBoton" onclick="primerMuestra('3')">3</button>
+            <button class="fondoBoton" onclick="primerMuestra('*')">*</button>
+            <button class="fondoBoton" onclick="primerMuestra('.')">.</button>
+            <button class="fondoBoton" onclick="primerMuestra('0')">0</button>
+            <button class="fondoBoton" onclick="primerMuestra('/')">/</button>
+            <button class="fondoBotonResultado" onclick="total()">=</button>
+            <button class="musicaOn" id="play"></button>
+            <button class="musicaOff" id="pausa"></button>
+            <audio id="miAudio">
+                <source src="sonidoHadouken.mp3" type="audio/mpeg">
+            <audio id="miAudioBorrar">
+                <source src="sonidoBorrar.mp3" type="audio/mpeg">
+            <audio id="miAudioResultado">
+                <source src="sonidoResultado.mp3" type="audio/mpeg">
+            <audio id="musica" loop>
+                <source src="sonidoFondo.mp3" type="audio/mpeg">
+                </audio>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>

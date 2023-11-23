@@ -1,0 +1,109 @@
+body{
+    background-image: url(background1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Handjet', cursive;
+}
+div.calculadora{
+    font-family: 'Handjet', cursive;
+    width: 451px;
+    height: 530px;
+    border-radius: 33px;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    margin: auto;
+    margin-top: -600px;
+
+}
+input{
+    width: 360px;
+    height: 30px;
+    background: #FFF;
+    margin: auto;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-family: 'Handjet', cursive;
+    font-size: large;
+ }
+
+ .ryu{
+    width: 256px;
+    height: 494px;
+    margin-top: 200px;
+    display: flex;
+ }
+ .ken{
+    width: 256px;
+    height: 494px;
+    margin-left: 1000px;  
+    margin-top: -495px;
+    transform: scaleX(-1);
+ }
+ .fondoBoton{
+    background-color: transparent;
+    font-family: 'Handjet', cursive;
+    font-size: 40px;
+    text-align: center;
+    background-size: 100%; 
+    width: 90px; 
+    height: 90px;
+    border: none; 
+    cursor: pointer;
+    background-image: url(backgroundBoton.png);
+    background-size: 100px;
+    margin-left: 15px;
+ }
+ .fondoBotonBorrar{
+    background-color: transparent;
+    font-family: 'Handjet', cursive;
+    font-size: 40px;
+    text-align: center;
+    background-size: 100%; 
+    width: 90px; 
+    height: 90px;
+    border: none; 
+    cursor: pointer;
+    background-image: url(backgroundBoton.png);
+    background-size: 100px;
+    margin-left: 15px;
+ }
+ .fondoBotonResultado{
+    background-color: transparent;
+    font-family: 'Handjet', cursive;
+    font-size: 40px;
+    text-align: center;
+    background-size: 100%; 
+    width: 90px; 
+    height: 90px;
+    border: none; 
+    cursor: pointer;
+    background-image: url(backgroundBoton.png);
+    background-size: 100px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 30px;
+ }
+.musicaOn{
+    background-color: transparent;
+    background-size: 100%; 
+    width: 90px; 
+    height: 90px;
+    border: none; 
+    cursor: pointer;
+    background-image: url(sonidoOn.png);
+    background-size: 100px;
+    margin-left: 10px;
+}
+.musicaOff{
+   background-color: transparent;
+   background-size: 100%; 
+   width: 60px; 
+   height: 60px;
+   border: none; 
+   cursor: pointer;
+   background-image: url(sonidoOff.png);
+   background-repeat: no-repeat;
+   margin-left: 150px;
+   margin-bottom: 100px;
+}
